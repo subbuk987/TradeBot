@@ -1,0 +1,31 @@
+# Requirements for Polygon Arbitrage Bot
+# Install with: pip install -r requirements.txt
+
+# Core Web3
+web3>=6.0.0
+eth-abi>=4.0.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+
+# Async & Performance
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.0
+
+# Data & Math
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Logging & Monitoring
+colorlog>=6.7.0
+rich>=13.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Optional: For contract deployment
+# py-solc-x>=1.1.0
+
+# Type hints
+typing-extensions>=4.0.0
